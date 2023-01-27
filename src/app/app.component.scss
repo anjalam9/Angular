@@ -1,0 +1,36 @@
+.clock 
+{
+  position: relative;
+  width: 450px;
+  height: 450px;
+}
+
+.clock img 
+{
+  width: 100%;
+  height: 100%;
+}
+
+.clock-hand 
+{
+  position: absolute;
+  width: 3px;
+  height: 150px;
+  top: 72px;
+  left: 219.5px;
+  background-color: black;
+  transform-origin: bottom center;
+  
+}
+
+.hour-hand {
+  transform: rotate(90deg);
+}
+
+.minute-hand {
+  transform: rotate(90deg);
+}
+
+.second-hand {
+  transform: rotate(90deg);
+}
